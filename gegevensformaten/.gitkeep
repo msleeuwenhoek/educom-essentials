@@ -1,0 +1,42 @@
+# markdown
+
+Is een simpele tekst, voornamelijk gebruikt in ReadMe's maar bijvoorbeeld ook berichten op online fora.
+Gemakkelijk te converteren naar HTML. Moet al leesbaar zijn zonder dat er opmaak wordt toegepast.
+Met bepaalde markeringen kun je tekst er wel dik- of schuingedrukt of als een kopje laten uitzien wanneer het naar HTML wordt omgezet.
+
+voorbeeld: ReadMe, berichten op online fora
+
+# JSON
+
+JSON bevat voornamelijk data.
+Als je een API gebruikt zal deze vaak data doorgeven in een JSON formaat.
+Het heeft de volgende basis structuur key:value
+Maar het formaat en de precieze structuur kan heel erg verschillen. Zo kan het arrays of objecten of een combinatie ervan bevatten, maar ook een string, een getal of een letterlijke waarde.
+Het maakt de data makkelijk leesbaar voor mensen.
+Je kan zo ook makkelijk data weghalen of toevoegen.
+
+voorbeeld: API's, dus tussen webservers en applicaties maar kan overal gebruikt worden waar data uitwisseling nodig is.
+
+# XML
+
+Een manier waarom tekst wordt opgeslagen maar waar ook de structuur van de tekst kan worden vastgelegd.
+HTML is hier een voorbeeld van maar is ook heftig gefocust op het uiterlijk van de tekst. XML gaat alleen over de structuur.
+XML wordt gebruikt om de data vast te leggen en uit te wisselen. JS kan XML bevoorbeeld op de pagina zetten.
+in tegenstelling tot HTML (wat de data weergeeft), is XML dus bedoeld om de data op te slaan.
+
+voorbeeld: data opslaan? text-formatting
+
+# SVG
+
+vectors. databestand geschreven is XML. bevat informatie over de lengte en afstand van verschillende lijnen, punten etc.
+Op die manier kun je een afbeelding vormen die makkelijk vergroot of verkleind kan worden zonder wazig te worden.
+Want de SVG is enkel gebaseerd op de relatieve afstanden tussen de elementen niet op een bepaalde bestandsgrootte.
+
+voorbeeld: vector afbeeldingen
+
+# YAML
+
+een andere programmeertaal waarin data kan worden opgeslagen en geconfigureerd. Het is een superset van JSON en kan dus alles wat JSON kan en meer.
+Is goed te gebruiken voor hele complexe data structuren.
+
+voorbeeld: volgensmij kan het voor dezelfde dingen als JSON worden gebruikt dus bijvoorbeeld via API's.
